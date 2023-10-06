@@ -1,0 +1,103 @@
+@font-face { 
+  font-family: 'Montserrat'; 
+  font-style: normal; 
+  font-weight: 400; 
+  font-display: swap;
+  src: local('Montserrat'), 
+    url('../assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../assets/fonts/Montserrat-Bold.woff') format('woff'); 
+} 
+
+@font-face { 
+  font-family: 'Montserrat'; 
+  font-style: normal; 
+  font-weight: 500; 
+  font-display: swap;
+  src: local('Montserrat'), 
+    url('../assets/fonts/Montserrat-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Montserrat-Medium.woff') format('woff'); 
+} 
+
+@font-face { 
+  font-family: 'Montserrat'; 
+  font-style: normal; 
+  font-weight: 600; 
+  font-display: swap;
+  src: local('Montserrat'), 
+    url('../assets/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+    url('../assets/fonts/Montserrat-SemiBold.woff2') format('woff'); 
+} 
+
+@font-face { 
+  font-family: 'Montserrat'; 
+  font-style: normal; 
+  font-weight: 700; 
+  font-display: swap;
+  src: local('Montserrat'), 
+    url('../assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../assets//fonts/Montserrat-Bold.woff') format('woff'); 
+} 
+
+@font-face { 
+  font-family: 'Montserrat'; 
+  font-style: normal; 
+  font-weight: 800; 
+  font-display: swap;
+  src: local('Montserrat'), 
+    url('../assets/fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+    url('../assets/fonts/Montserrat-ExtraBold.woff') format('woff'); 
+} 
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+:root {
+  --color-black: #000000;
+  --color-christine: #E1670E;
+  --color-conifer: #97EE3F;
+  --color-dove-gray: #666666;
+  --color-gray: #808080;
+  --color-orange-peel: #ff9900;
+  --color-silver: #CACACA;
+  --color-texas-rose: #FFB84D;  
+  --color-tundora: #414141;
+  --color-white: #FFFFFF;
+}
+
+.test1 {
+  font-weight: 400;
+}
+
+.test2 {
+  font-weight: 500;
+}
+
+.test3 {
+  font-weight: 600;
+}
+
+.test4 {
+  font-weight: 700;
+}
+
+.test5 {
+  font-weight: 800;
+}
