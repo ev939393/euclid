@@ -883,7 +883,7 @@ img {
     font-size: 20px;
     line-height: normal;
   }
-  
+
   .about__top {
     padding-bottom: 55px;
   }
@@ -892,5 +892,74 @@ img {
     max-width: 100%;
   }
 
+  .about__bottom {
+    flex-wrap: wrap;
+    --about-bottom-ofssets: 0;
+  }
+
+  .about__card {
+    height: 640px;
+  }
+
+  .about__item {
+    justify-content: start;
+    padding: 66px 62px 65px 76px;
+  }
+
+  .about {
+    padding-bottom: 79px;
+  }
+
+  .stages {
+    padding-bottom: 84px;
+  }
+
+  .stages__content {
+    --stages-gap: 48px;
+  }
+
+  .stages__left {
+    padding-right: 0;
+  }
+
+  .stages__descr-wrap {
+    margin-bottom: 23px;
+  }
+
+  .questions {
+    padding-bottom: 77px;
+}
+
+  .questions__list {
+    --questions-list-ofssets: 0;
+  }
+
+  .footer__right {
+    display: none;
+  }
+
+  .footer__wrap {
+    --footer-ofssets: 1;
+  }
+
+  .footer__left {
+    max-width: 251px;
+  }
+
+  .footer__center {
+    width: 59%;
+  }
+
+  .form__bottom {
+    justify-content: start;
+  }
+
+  .form__btn {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
 }
+
+ /* заменить картинку
+ pp на 1024 готов*/
