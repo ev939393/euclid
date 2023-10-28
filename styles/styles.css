@@ -520,6 +520,7 @@ img {
   background-image: url('../assets/img/stages@1x.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .questions {
@@ -846,12 +847,17 @@ img {
     padding: 0 50px;
   }
 
+  .header__logo {
+    margin-right: 0;
+  }
+
   .header_logo-img {
     height: 48px;
   }
 
   .header__container {
-    gap: 104px;
+    justify-content: space-between;
+    gap: 0;
     padding: 26px 50px 22px 52px;
   }
 
@@ -898,7 +904,7 @@ img {
   }
 
   .about__card {
-    height: 640px;
+    min-height: 640px;
   }
 
   .about__item {
@@ -958,8 +964,161 @@ img {
     padding-left: 40px;
     padding-right: 40px;
   }
-
 }
 
- /* заменить картинку
- pp на 1024 готов*/
+@media (max-width: 992px) {
+
+  .hero__wrap {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .header__container {
+    padding: 16px 50px 14px 50px;
+  }
+
+  .header_logo-img {
+    height: 35px;
+  }
+
+  .nav__list {
+    gap: 43px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+  }
+
+  .hero__title {
+    font-size: 50px;
+  }
+
+  .hero__descr {
+    font-size: 18px;
+  }
+
+  .about {
+    padding-bottom: 83px;
+  }
+
+  .about__title {
+    margin-bottom: 20px;
+  }
+
+  .about__card-content {
+    gap: 30px;
+  }
+
+  .about__card {
+    min-height: 650px;
+  }
+
+  .about__card-content {
+    padding: 36px 39px 33px 40px;
+  }
+
+  .about__item {
+    gap: 18px;
+    padding: 35px 36px 34px 38px;
+  }
+
+  .about__item-left {
+    width: 114px;
+  }
+
+  .about__item-right {
+    max-width: 100%;
+  }
+
+  .stages {
+    padding-bottom: 80px;
+  }
+
+  .stages__content {
+    --stages-ofssets: 0;
+    gap: var(--stages-gap);
+    flex-direction: column-reverse;
+  }
+
+  .stages__title {
+    margin-bottom: 32px;
+  }
+
+  .stages__right {
+    min-height: 284px;
+  }
+
+  .questions__item {
+    padding: 37px 40px 35px 40px;
+  }
+
+  .footer {
+    padding-bottom: 46px;
+  }
+
+  .footer__nav {
+    display: none;
+  }
+
+  .footer__wrap {
+    --footer-gap: 50px;
+    --footer-ofssets: 0;
+    flex-direction: column-reverse;
+  }
+
+  .footer__left {
+    width: 100%;
+  }
+
+  .footer__logo {
+    margin-bottom: 12px;
+  }
+
+  .footer__center {
+    width: 100%;
+    max-width: 541px;
+  }
+
+  .form__btn {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .header__container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .nav {
+    order: 2;
+    overflow: scroll;
+  }
+
+  .about__card {
+    background-size: contain;
+    min-height: 395px;
+  }
+
+  .about__card-content {
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+    background: none;
+  }
+
+  .about__card-descr {
+    color: var(--color-black);
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .about__card-btn {
+    color: var(--color-orange-peel);
+  }
+
+}
+ /* остановилась на долящем мужике
+м */
