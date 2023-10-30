@@ -1098,7 +1098,8 @@ img {
   }
 
   .about__card {
-    background-size: contain;
+    background-size: auto 200px;
+    background-position: top center;
     min-height: 395px;
   }
 
@@ -1120,5 +1121,134 @@ img {
   }
 
 }
- /* остановилась на долящем мужике
-м */
+
+@media (max-width: 576px) {
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .header {
+    margin-bottom: 19px;
+  }
+
+  .header__container {
+    gap: 19px;
+    padding: 15px 15px 24px 15px;
+  }
+
+  .nav__list {
+      gap: 24px;
+      overflow: scroll;
+  }
+
+  .nav__list::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .nav__item {
+    flex-shrink: 0;
+  }
+
+  .hero {
+    padding-bottom: 62px;
+  }
+
+  .hero__wrap {
+    border-radius: 16px;
+    padding-top: 61px;
+    padding-bottom: 57px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .hero__title {
+    margin-bottom: 7px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .hero__descr {
+    margin-bottom: 32px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .hero__btn {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 8px 0;
+    width: 162px;
+    font-size: 12px;
+  }
+
+  .about__title {
+    font-size: 24px;
+  }
+
+  .about__descr {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about__top {
+    padding-bottom: 14px;
+  }
+
+  .about__card {
+    min-height: 402px;
+  }
+
+  .about__card-content {
+    gap: 12px;
+  }
+
+  .about__card-descr {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about__card-btn {
+    border-radius: 8px;
+    border: 2px solid var(--color-texas-rose);
+    padding: 12px 44px;
+    font-size: 12px;
+  }
+
+  .about__bottom {
+    --about-bottom-gap: 8px;
+  }
+
+  .about__item {
+    gap: 9px;
+    flex-direction: column;
+    border: none;
+    padding: 24px 0px 0px 0px;
+  }
+
+  .about__item-left {
+    width: 64px;
+    height: 49px;
+  }
+
+  .about__item-title {
+    font-size: 18px;
+    line-height: normal;
+    margin-bottom: 4px;
+  }
+
+  .about__item-descr {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about__list {
+    gap: 9px;
+  }
+
+  .questions {display: none;}
+}
+
+
