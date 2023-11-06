@@ -871,7 +871,7 @@ img {
 
   .hero {
     padding-bottom: 38px;
-}
+  }
 
   .hero__wrap {
     padding-top: 160px;
@@ -934,7 +934,7 @@ img {
 
   .questions {
     padding-bottom: 77px;
-}
+  }
 
   .questions__list {
     --questions-list-ofssets: 0;
